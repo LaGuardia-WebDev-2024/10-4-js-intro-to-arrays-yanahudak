@@ -8,10 +8,13 @@ setup = function() {
     text("🍽", i, 370)
   }
 
-var favorite fruits = [ "🍓", "🥝", "🍊"]
+var x = [ "🍓", "🥝", "🍊"]
 fill(255, 0, 0);
 text(x[0], 10, 30);
 text(x[1], 10, 80);
 text(x[2], 10, 130);
+
+textSize(30);
+text("I have" + x.length + "Favorite Fruits!!", 10, 300);
 };
 
